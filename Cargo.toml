@@ -9,3 +9,9 @@ edition = "2021"
 rand = "0.8.5"
 libusb = "0.3"
 crc = "3.0.1"
+bit-vec = "0.8.0"
+
+[patch.crates-io]
+bit-vec = { git = "https://github.com/contain-rs/bit-vec", branch = "v0.8.0" }
+libusb = { git = "https://github.com/Rex-Sanchez/libusb-rs", branch = "master" }
+
